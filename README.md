@@ -10,22 +10,28 @@ https://github.com/captain-sal/Text-Detection-and-Recognition---DIP-Project
 '''
 
 3. Navigate to the project directory:
+'''
 cd text-recognition-flask
+'''
 
 
-4. Install the required Python packages:
+5. Install the required Python packages:
+'''
 pip install easyocr Flask opencv-python-headless numpy
+'''
 
 
-5. Run the Flask application:
+7. Run the Flask application:
+'''
 python app.py
+'''
 
 
 ## Usage
 
-1. Open a web browser and go to `http://localhost:5000`.
-2. Click on the "Choose File" button to select an image file containing text.
-3. Click the "Upload" button to upload the image.
+1. Open a web browser and go to :  **`http://localhost:5000`**.
+2. Click on the **"Choose File"** button to select an image file containing text.
+3. Click the **"Upload"** button to upload the image.
 4. The application will process the image, detect text using EasyOCR, and display the results on the web page.
 
 
