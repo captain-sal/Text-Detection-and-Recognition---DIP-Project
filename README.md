@@ -17,7 +17,7 @@ pip install easyocr Flask opencv-python-headless numpy
 # Run the Flask application
 python app.py
 
-
+```
 
 ## Usage
 
