@@ -1,23 +1,23 @@
-# Text-Detection-and-Recognition : Digital Image Processing Project
-# Text Recognition with Flask and EasyOCR
+# Text-Detection-and-Recognition : Digital Image Processing Project with Flask and EasyOCR
 
 This Flask application detects text in uploaded images using the EasyOCR library and displays the results on a web interface.
 
 ## Installation
 
 1. Clone the repository:
+'''
 https://github.com/captain-sal/Text-Detection-and-Recognition---DIP-Project
+'''
 
-
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 cd text-recognition-flask
 
 
-3. Install the required Python packages:
+4. Install the required Python packages:
 pip install easyocr Flask opencv-python-headless numpy
 
 
-4. Run the Flask application:
+5. Run the Flask application:
 python app.py
 
 
