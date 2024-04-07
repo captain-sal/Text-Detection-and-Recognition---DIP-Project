@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Detection Results</title>
+  </head>
+  <body>
+    <h1>Text Detection Results</h1>
+    <div>
+      <ul>
+        {% for detection in text %}
+        <li>Bounding Box: {{ detection[0] }}</li>
+        <font color="#4e1cb3"
+          ><b><li>Text: {{ detection[1] }}</li></b></font
+        >
+        <li>Score: {{ detection[2] }}</li>
+        <br />
+        {% endfor %}
+      </ul>
+    </div>
+  </body>
+</html>
